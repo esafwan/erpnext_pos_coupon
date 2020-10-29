@@ -1,4 +1,4 @@
-## Erpnext Point of Sale(POS) Coupon. [POC]
+## ERPNext Point of Sale(POS) Coupon. [POC]
 
 Provides a button within pos to apply coupons from within the Point of Sale in ERPNext. Coupons can be created from the native coupon functionality in ERPNext used for eCommerce at http://[your-erp-domain.com]/desk#List/Coupon%20Code/List
 
