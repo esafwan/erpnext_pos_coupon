@@ -8,7 +8,7 @@ function page_changed(event)
             if(route[0] == "pos")
             {
                 var button_off = document.createElement('button');
-                button_off.innerHTML = 'Add Coupon Offline';
+                button_off.innerHTML = 'Add Coupon';
                 let container = document.querySelector('div.col-sm-12');
                 container.innerHTML  = container.innerHTML + "<br/>" ;
                 container.appendChild(button_off);
@@ -22,7 +22,7 @@ function page_changed(event)
 
 
 let d = new frappe.ui.Dialog({
-    title: 'Enter details',
+    title: 'Enter coupon details',
     fields: [
         {
             label: 'Coupon Code',
@@ -40,7 +40,7 @@ let d = new frappe.ui.Dialog({
             var k = JSON.parse(r.message)
             if (r.message == "null")
             {
-                frappe.throw('Invalid Coupon Code')
+                frappe.throw('Invalid Coupon Code.')
             }
             else
             {
@@ -49,7 +49,7 @@ let d = new frappe.ui.Dialog({
                     var customer_ = document.querySelector("input[data-fieldname='customer']");
                     if(customer_.value != k.customer)    
                     {
-                        frappe.throw("You do not have this Offer")
+                        frappe.throw("You do not have this Offer.")
                         return false
                     }
                 }
