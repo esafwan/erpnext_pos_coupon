@@ -5,10 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Erpnext Pos Coupon",
+			"module_name": "ERPNext POS Coupon",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Erpnext Pos Coupon")
+			"label": _("ERPNext POS Coupon")
 		}
 	]

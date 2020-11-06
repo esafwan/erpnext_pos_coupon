@@ -3,9 +3,9 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "erpnext_pos_coupon"
-app_title = "Erpnext Pos Coupon"
+app_title = "ERPNext Pos Coupon"
 app_publisher = "Tridz"
-app_description = "Applying Coupon In POS"
+app_description = "Implements Coupon in POS"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "info@tridz.com"
