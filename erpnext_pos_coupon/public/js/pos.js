@@ -17,6 +17,19 @@ function page_changed(event)
                     d.show();
                 }
             }
+            else if(route[0]=="point-of-sale")
+            {
+                var button_off = document.createElement('button');
+                button_off.style.color = "white";
+                button_off.innerHTML = 'Add Coupon';
+                let container = document.querySelector('div.clearfix');
+                //container.innerHTML  = container.innerHTML + "<br/>" ;
+                container.appendChild(button_off).style.backgroundColor = "#5e64ff";
+                button_off.onclick = function()
+                {
+                    d.show();
+                }
+            }
         })
     }
 
