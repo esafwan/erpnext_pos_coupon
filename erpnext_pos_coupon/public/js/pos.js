@@ -71,12 +71,12 @@ let d = new frappe.ui.Dialog({
             }
             if (k.discount_type == "Amount")
             {
-                var discount = document.querySelector('input.discount-amount');
+                var discount = document.querySelector('input.discount_amount');
                 discount.value = k.discount_value
             }
             else if (k.discount_type == "Percentage")
             {
-                var discount = document.querySelector('input.discount-percentage');
+                var discount = document.querySelector('input.additional_discount_percentage');
                 discount.value = k.discount_value
             }
             discount.dispatchEvent(new Event('change'));     
