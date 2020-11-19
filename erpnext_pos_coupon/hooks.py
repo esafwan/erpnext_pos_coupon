@@ -18,7 +18,7 @@ app_license = "MIT"
 # app_include_css = "/assets/erpnext_pos_coupon/css/erpnext_pos_coupon.css"
 # app_include_js = "/assets/erpnext_pos_coupon/js/erpnext_pos_coupon.js"
 app_include_js = "/assets/erpnext_pos_coupon/js/pos.js"
-app_include_css = "/assets/erpnext_pos_coupon/css/pos.css"
+#app_include_css = "/assets/erpnext_pos_coupon/css/pos.css"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erpnext_pos_coupon/css/erpnext_pos_coupon.css"

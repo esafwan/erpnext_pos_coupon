@@ -19,6 +19,8 @@ function page_changed(event)
             }
             else if(route[0]=="point-of-sale")
             {
+                document.querySelector('input.discount_amount').disabled = true;
+                document.querySelector('input.additional_discount_percentage').disabled = true;
                 var button_off = document.createElement('button');
                 button_off.style.color = "white";
                 button_off.innerHTML = 'Add Coupon';
