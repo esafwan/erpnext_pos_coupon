@@ -86,8 +86,9 @@ app_include_js = "/assets/erpnext_pos_coupon/js/pos.js"
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-#	}
+# 	}
 # }
+
 
 # Scheduled Tasks
 # ---------------
