@@ -21,8 +21,9 @@ function page_changed(event)
         }
         else if(route[0]=="point-of-sale")
         {
-            console.log("works without onload")
+            console.log("works without onloads")
             var button_off = document.createElement('button');
+            button_off.classList.add('coupon_button')
             button_off.style.color = "white";
             button_off.innerHTML = 'Add Coupons';
             let container = document.querySelector('div.clearfix');
